@@ -1,0 +1,137 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; /* Separa logo e menu */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffc017;
+    height: 320px;
+   p{
+    position: relative;
+    right: 1100px;
+   }
+
+    }
+    header img{
+        height: 23px;
+    }
+ button.btn{
+background-color: black;
+color:white;
+border-radius:33px;
+height: 25px;
+left: 1050px;
+position: relative;
+bottom: 5px;
+}
+button.start-reading{
+    background-color:black ;
+    color:white;
+    border-radius: 33px;
+    height: 36px;    
+    width: 160px;
+    position: relative;
+    right: 1100px;
+    }
+    div.header{
+        text-align: left;
+        
+        margin:0;
+        }           
+        h1{
+            font-size: 90px;
+    position: relative;
+    right: 1100px;
+    bottom: 33px;
+       font-size:90px;
+       p{
+        font-size: 65px;
+       }
+
+            }
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    .trending {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .trending-item {
+        display: flex;
+        align-items: center;
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .trending-item img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .tags {
+        list-style: none;
+        padding: 0;
+    }
+    .tags li {
+        display: inline-block;
+        background: #ddd;
+        margin: 5px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    
+
+img{
+    height: 100px;
+    
+    float: 33px;
+}
+.logo {
+    position:absolute;
+    top: 10px;
+    max-height: 160px;
+    left: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    position: relative;
+    left: 1050px;
+
+   text-decoration: none;
+    color: black;
+}
+    
+
+
+
+.contenitore {
+    display: flex;
+    align-items: center; /* Allinea verticalmente al centro */
+  }
+  .logo {
+    width: 50px; /* Imposta la larghezza del logo */
+    height: auto;
+    margin-right: 10px; /* Spazio tra il logo e la scritta */
+  }
+  .scritta {
+    font-size: 24px;
+    font-weight: bold;
+  }
